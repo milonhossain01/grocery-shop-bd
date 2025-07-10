@@ -123,6 +123,8 @@ main{
     color: #FFFFFF;
     margin-top: 20px;
     width: 80%;
+    font-size: 16px;
+    border: none;
 }
 .production{
     display: flex;
