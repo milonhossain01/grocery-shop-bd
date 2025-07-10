@@ -1,19 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Grocery Shop</title>
-</head>
-<body>
-    <header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/shop.css">
 
+</head>
+
+<body class="newsreader-shop-body">
+    <header class="shop-owner">
+        <nav>
+            <h1 class="shop-name">World Peas</h1>
+            <!-- ul>li*5>a.shop-heading -->
+            <ul>
+                <li><a href="" class="shop-heading">Shop</a></li>
+                <li><a href="" class="shop-heading">Newstand</a></li>
+                <li><a href="" class="shop-heading">Who we are</a></li>
+                <li><a href="" class="shop-heading">My profile</a></li>
+                <li><a href="" class="shop-heading"><button class="shop-color">Basket (3)</button></a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <!-- section.all-product>h1.basket+h6.basket-2>.all-items>h2.items*2 -->
+        <section>
+            <div class="around-items">
+                <h1 class="basket">Basket</h1>
+                <h6 class="basket-2">3 items</h6>
+            </div>
+            <hr>
+        </section>
+        <!-- new -->
+        
+           <section class="production">
 
+             <section>
+                <div class="product">
+                    <img src="vigetable img/tomato.png" alt="">
+                    <div class="row-product">
+                         <h2 class="items">Heirloom tomato</h2>
+                        <h3 class="price">$5.99 / lb</h3>
+                        <h3 class="weight">1 lb</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="vigetable img/ginjer.png" alt="">
+                    <div class="row-product">
+                        <h2 class="items">Organic ginger</h2>
+                        <h3 class="price">$12.99 / lb</h3>
+                        <h3 class="weight">0.5 lb</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="vigetable img/onnion.png" alt="">
+                    <div class="row-product">
+                        <h2 class="items">Sweet onion</h2>
+                        <h3 class="price">$2.99 / lb</h3>
+                        <h3 class="weight">5 lb</h3>
+                    </div>
+                </div>
+
+            </section>
+            <section>
+                <div class="super-sell">
+                    <h2 class="order">Order summary</h2>
+                    <div class="sell">
+                        <h4 class="subtotal">Subtotal</h4>
+                        <h4 class="subtotal">$27.44</h4>
+                    </div>
+                    <div class="sell">
+                        <h4 class="subtotal">Shipping</h4>
+                        <h4 class="subtotal">$3.99</h4>
+                    </div>
+                    <div class="sell">
+                        <h4 class="subtotal">Tax</h4>
+                        <h4 class="subtotal">$2.00</h4>
+                    </div>
+                    <div class="sell ">
+                        <h4 class="subtotal now">Total</h4>
+                        <h4 class="subtotal now">$33.43</h4>
+                    </div>
+                    <button class="sell-done">Continue to payment</button>
+                </div>
+            </section>
+           </section>
+        
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
